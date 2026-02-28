@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <!--Tailwind Css CDN Link-->
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body>
+<!-- Responsive Navebar-->
+    <Nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10"  >
+        <h1 class="text-2xl">GREENDEN</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 text-green-900 md:hidden"> <path fill-rule="evenodd" d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" /> </svg>
+        
+        <ul class="flex gap-5 text-gray-600 hidden md:flex ">
+           
+            <li class="hover:underline hover:text-black">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="hover:underline hover:text-black">
+                <a href="#">Product</a>
+            </li>
+            <li class="hover:underline hover:text-black">
+                <a href="contact.html">Contact</a>             
+            </li>
+        </ul>
+    </Nav>
+<!--Porduct Serching-->
+    <section class="text-center">
+        <h1 class="text-3xl font-bold mt-5 text-center"> Our Product </h1>
+        <input type="text" class="border border-black p-2 m-3" style="width: 80%;" placeholder="Serach for Product"><br>
+     </section>
+
+<!--Product Lising Section-->
+    <section class="p-4 text-center">
+        <div class="grid grid-cols-2 mt-5 md:grid-cols-4 gap-5">
+            <div>
+                <img src="./img/product/Anthurium.png" alt="Anthurium (Anthurium andraeanum)" class="inline transform transition-transform hover:shadow-xl hover:-translate-y-2">
+            <h1>Anthurium (Anthurium andraeanum)</h1>
+            <p>$45</p>
+            </div>
+            <div>
+                <img src="./img/product/Dumb Cane.png " alt="Dumb Cane" class="inline transform transition-transform hover:shadow-xl hover:-translate-y-2">
+            <h1>Dumb Cane (Dieffenbachia)</h1>
+            <p>$30</p>
+            </div>
+            <div>
+                <img src="./img/product/European Fan Palm.png" alt="European Fan Palm" class="inline transform transition-transform hover:shadow-xl hover:-translate-y-2">
+            <h1>European Fan Palm (Chamaerops humilis)</h1>
+            <p>$115</p>
+            </div>
+            <div>
+                <img src="./img/product/Kalanchoe.png" alt="Kalanchoe (Kalanchoe blossfeldiana)" class="inline transform transition-transform hover:shadow-xl hover:-translate-y-2">
+            <h1>Kalanchoe (Kalanchoe blossfeldiana)</h1>
+            <p>$15</p>
+            </div>
+            <div>
+                <img src="./img/product/Kentia Palm.png" alt="Kentia Palm (Howea forsteriana)" class="inline transform transition-transform hover:shadow-xl hover:-translate-y-2">
+            <h1>Kentia Palm (Howea forsteriana)</h1>
+            <p>$200</p>
+            </div>
+            <div>
+                <img src="./img/product//Nerve Plan.png" alt="Nerve Plant (Fittonia albivenis)" class="inline transform transition-transform hover:shadow-xl hover:-translate-y-2">
+            <h1>Nerve Plant (Fittonia albivenis)</h1>
+            <p>$12</p>
+            </div>
+            <div>
+                <img src="./img/product/Spider Plant.png" alt="Spider Plant (Chlorophytum comosum)" class="inline transform transition-transform hover:shadow-xl hover:-translate-y-2">
+            <h1>Spider Plant (Chlorophytum comosum)</h1>
+            <p>$24</p>
+            </div>
+            <div>
+                <img src="./img/product/Yucca Cane.png" alt="Yucca Cane (Yucca elephantipes)" class="inline transform transition-transform hover:shadow-xl hover:-translate-y-2">
+            <h1>Yucca Cane (Yucca elephantipes)</h1>
+            <p>$80</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Fooder Section-->
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold"> Greenden</h1>
+        <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+        <p>©2021 Greenday.com</p>
+     </section>
+</body>
+</html>
